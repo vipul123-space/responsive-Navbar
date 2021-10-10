@@ -49,7 +49,7 @@ body {
 .button_mobile-icon[name="close-outline"] {
   display: none;
 }
-@media (max-width: 56em) {
+@media (max-width: 56.25em) {
   .main-header_nav {
     display: flex;
     position: absolute;
@@ -64,7 +64,7 @@ body {
     pointer-events: none;
     visibility: hidden;
     transition: all 0.5s ease-in;
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
   .nav-open .main-header_nav {
     opacity: 1;
@@ -78,7 +78,6 @@ body {
   }
   .button_mobile {
     display: block;
-    z-index: 999;
   }
   .items-links:link,
   .items-links:visited {
